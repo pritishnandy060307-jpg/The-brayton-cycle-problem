@@ -26,10 +26,10 @@ jobs:
       - name: Generate plots with Matplotlib
         run: python Brayton_Cycle_3D_Parameter_Study.py
 
-      - name: Commit generated comparison plot
+      - name: Commit generated Matplotlib PNGs
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add plots/10_point_first_law_comparison.png
-          git diff --cached --quiet || git commit -m "Generate 10-point comparison plot with Matplotlib"
+          git add plots/3D_parameter_study.png plots/10_point_first_law_comparison.png
+          git diff --cached --quiet || git commit -m "Generate Matplotlib PNG plots"
           git push
