@@ -28,13 +28,13 @@ Then run:
 python Brayton_Cycle_3D_Parameter_Study.py
 ```
 
-The script calculates the Brayton-cycle thermal efficiency and generates the 3-D graph in `plots/3D_parameter_study.png`.
+The script calculates the Brayton-cycle thermal efficiency and generates the 3-D graph in `plots/3D_parameter_study.svg`.
 
 ## 3-D parameter study
 
 The color represents the calculated Brayton-cycle thermal efficiency.
 
-![3-D Brayton cycle parameter study](plots/3D_parameter_study.png)
+![3-D Brayton cycle parameter study](plots/3D_parameter_study.svg)
 
 ## Project contents
 
