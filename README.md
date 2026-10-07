@@ -28,13 +28,13 @@ Then run:
 python Brayton_Cycle_3D_Parameter_Study.py
 ```
 
-The script calculates the Brayton-cycle thermal efficiency and generates the 3-D graph in `plots/3D_parameter_study.svg`.
+The script calculates the Brayton-cycle thermal efficiency and generates the 3-D graph in `plots/3D_parameter_study.png` using Matplotlib.
 
 ## 3-D parameter study
 
 The 3-D graph is generated directly by the Python script using **Matplotlib** from the full 29,791-point parameter sweep. A repository preview is also included below.
 
-![3-D Brayton cycle parameter study](plots/3D_parameter_study.svg)
+![3-D Brayton cycle parameter study](plots/3D_parameter_study.png)
 
 ## 10-point first-law efficiency comparison
 
