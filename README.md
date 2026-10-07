@@ -1,6 +1,6 @@
 # Brayton Cycle Problem
 
-A small computational analysis for the Brayton-cycle question.
+A small **100% Python** computational analysis for the Brayton-cycle question.
 
 ## Parameter ranges
 
@@ -12,20 +12,33 @@ The calculation evaluates **29,791 combinations** using 31 points for each param
 
 ## Python implementation
 
-Run:
+The complete calculation and plotting are contained in:
 
 `Brayton_Cycle_3D_Parameter_Study.py`
 
-The script calculates the cycle thermal efficiency and generates the 3-D parameter plot.
+Install the required packages:
+
+```bash
+pip install numpy matplotlib
+```
+
+Then run:
+
+```bash
+python Brayton_Cycle_3D_Parameter_Study.py
+```
+
+The script calculates the Brayton-cycle thermal efficiency and generates the 3-D graph in `plots/3D_parameter_study.png`.
 
 ## 3-D parameter study
 
-The color represents calculated Brayton-cycle thermal efficiency.
+The color represents the calculated Brayton-cycle thermal efficiency.
 
-![3-D Brayton cycle parameter study](plots/3D_parameter_study.svg)
+![3-D Brayton cycle parameter study](plots/3D_parameter_study.png)
 
-## MATLAB version
+## Project contents
 
-The original MATLAB implementation is also retained:
-
-`Brayton_Cycle_3D_Parameter_Study.m`
+- **Python:** calculation + 3-D visualization
+- **NumPy:** numerical parameter sweep
+- **Matplotlib:** graph generation
+- **No MATLAB files required**
