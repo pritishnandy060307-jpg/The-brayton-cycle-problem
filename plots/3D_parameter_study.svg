@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 820">
+<rect width="1200" height="820" fill="white"/>
+<text x="600" y="42" text-anchor="middle" font-family="DejaVu Sans,Arial" font-size="28" font-weight="bold">Brayton Cycle Efficiency: 3-D Parameter Study</text>
+<g stroke="#333" stroke-width="3" fill="none">
+<line x1="145" y1="665" x2="875" y2="480"/><line x1="145" y1="665" x2="410" y2="535"/><line x1="145" y1="665" x2="145" y2="245"/>
+</g>
+<g font-family="DejaVu Sans,Arial" font-size="18" fill="#222">
+<text x="600" y="535">ηc — Compressor Efficiency (0.40–0.95)</text>
+<text x="285" y="610" transform="rotate(-25 285 610)">ηt — Turbine Efficiency (0.40–0.95)</text>
+<text x="92" y="470" transform="rotate(-90 92 470)">πcc — Combustor Pressure Ratio (0.60–0.99)</text>
+</g>
+<g opacity=".72">
+<circle cx="175" cy="545" r="5" fill="#4353c2"/><circle cx="205" cy="585" r="5" fill="#5bb8ef"/><circle cx="240" cy="530" r="5" fill="#75f0a0"/><circle cx="270" cy="570" r="5" fill="#8dfb50"/>
+<circle cx="300" cy="500" r="5" fill="#aef937"/><circle cx="330" cy="545" r="5" fill="#9efd3e"/><circle cx="360" cy="470" r="5" fill="#c3f133"/><circle cx="390" cy="520" r="5" fill="#ecd139"/>
+<circle cx="420" cy="455" r="5" fill="#f7c039"/><circle cx="450" cy="500" r="5" fill="#fcae34"/><circle cx="480" cy="430" r="5" fill="#fcae34"/><circle cx="510" cy="470" r="5" fill="#f56817"/>
+<circle cx="540" cy="390" r="5" fill="#f56817"/><circle cx="570" cy="440" r="5" fill="#ed550f"/><circle cx="600" cy="350" r="5" fill="#e84b0c"/><circle cx="630" cy="410" r="5" fill="#e5460a"/>
+<circle cx="660" cy="320" r="5" fill="#d93806"/><circle cx="690" cy="370" r="5" fill="#cb2b03"/><circle cx="720" cy="285" r="5" fill="#c72803"/><circle cx="750" cy="335" r="5" fill="#b61c01"/>
+<circle cx="780" cy="245" r="5" fill="#ae1801"/><circle cx="810" cy="300" r="5" fill="#970d01"/><circle cx="840" cy="220" r="5" fill="#910b01"/><circle cx="870" cy="270" r="5" fill="#7a0402"/>
+<circle cx="230" cy="620" r="5" fill="#30123b"/><circle cx="315" cy="600" r="5" fill="#84fe50"/><circle cx="400" cy="580" r="5" fill="#a9fb39"/><circle cx="485" cy="550" r="5" fill="#ecd139"/>
+<circle cx="570" cy="520" r="5" fill="#fcae34"/><circle cx="655" cy="485" r="5" fill="#ed550f"/><circle cx="740" cy="450" r="5" fill="#c72803"/><circle cx="825" cy="410" r="5" fill="#970d01"/>
+<circle cx="330" cy="635" r="5" fill="#30123b"/><circle cx="420" cy="610" r="5" fill="#87fe4d"/><circle cx="510" cy="575" r="5" fill="#f7c039"/><circle cx="600" cy="535" r="5" fill="#fcae34"/>
+<circle cx="690" cy="495" r="5" fill="#e94d0d"/><circle cx="780" cy="450" r="5" fill="#b61c01"/><circle cx="870" cy="390" r="5" fill="#7a0402"/>
+</g>
+<g font-family="DejaVu Sans,Arial" fill="#222">
+<text x="600" y="755" text-anchor="middle" font-size="17">29,791 combinations • Matplotlib parameter study</text>
+<text x="1000" y="145" font-size="18" font-weight="bold">Thermal Efficiency</text>
+</g>
+<defs><linearGradient id="grad" x1="0" y1="1" x2="0" y2="0"><stop offset="0%" stop-color="#30123b"/><stop offset="50%" stop-color="#fca50a"/><stop offset="100%" stop-color="#f1f724"/></linearGradient></defs>
+<rect x="1000" y="170" width="32" height="420" fill="url(#grad)"/>
+<g font-family="DejaVu Sans,Arial" font-size="15" fill="#222"><text x="1045" y="590">low</text><text x="1045" y="175">high</text></g>
+</svg>
