@@ -32,9 +32,15 @@ The script calculates the Brayton-cycle thermal efficiency and generates the 3-D
 
 ## 3-D parameter study
 
-The color represents the calculated Brayton-cycle thermal efficiency.
+The 3-D graph is generated directly by the Python script using **Matplotlib** from the full 29,791-point parameter sweep. No pre-generated graph image is stored in the repository.
 
-![3-D Brayton cycle parameter study](plots/3D_parameter_study.svg)
+Run:
+
+```bash
+python Brayton_Cycle_3D_Parameter_Study.py
+```
+
+The script creates `plots/3D_parameter_study.png` locally.
 
 ## Project contents
 
